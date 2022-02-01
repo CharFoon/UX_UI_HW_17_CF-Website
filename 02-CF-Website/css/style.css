@@ -1,0 +1,73 @@
+/* Add a black background color to the top navigation */
+
+  a {
+  padding: 200px;
+  width: 89px;
+  height: 25px;
+  background-color: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 10PX;
+  color: #2E2F40;
+  text-decoration: none;
+  }
+
+  #navigation {
+    background-color: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F40;
+  }
+  
+  /* Style the links inside the navigation bar */
+
+ div {
+  align-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #2E2F40;
+ }
+  .CF_logo_blk.png {
+   align-content: flex-start;
+   left: 100px;
+ }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .h1 {    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 133px;
+    color: #2E2F40;
+  }
