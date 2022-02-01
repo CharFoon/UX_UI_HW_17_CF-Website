@@ -210,6 +210,35 @@ margin: 17.18px 0px;
   top: 676px;
 }
 
+.colourcontainer {
+position: static;
+width: 649px;
+height: 752px;
+left: 0px;
+top: 0px;
+background: #ADAEF2;
+border-radius: 0px 17.6597px 26.4896px 0px;
+}
 
+.textcontainer {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
 
+position: absolute;
+width: 524px;
+height: 162px;
+left: 125px;
+top: 1597px;
+
+/* Portfolio - PUR3 */
+
+background: #ADAEF2;
+border-radius: 17.6597px;
+}
+
+.Kyndli_Beauty_Img.jpg {
+width: 100 px;
+height: auto;
 }
