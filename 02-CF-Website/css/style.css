@@ -1,26 +1,102 @@
 /* Add a black background color to the top navigation */
+.separator {
+  width: 1000px;
+}
 
-  a {
-  padding: 200px;
-  width: 89px;
-  height: 25px;
-  background-color: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 10PX;
-  color: #2E2F40;
-  text-decoration: none;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+
+  li {
+    display: inline;
+    display: block;
+    padding: 30px;
+    align-content: flex-start;
+    float: left;
+  }
+
+  .logo {
+    position: absolute;
+    width: 87.44px;
+    height: 87px;
+    left: 128.19px;
+    top: 30px;
+  }
+
+a {
+/* MY STORY */
+
+
+position: static;
+width: 89px;
+height: 25px;
+left: 10px;
+top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 154% */
+
+text-align: center;
+letter-spacing: 0.11em;
+
+/* Portfolio - GRY 1 */
+
+color: #2E2F40;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
   }
 
   #navigation {
-    background-color: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #2E2F40;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 1111px;
+    height: 117px;
+    left: 401px;
+    top: calc(50% - 117px/2 - 432.5px);
   }
   
-  /* Style the links inside the navigation bar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    padding: 0px;
+
+    position: static;
+    width: 1010px;
+    height: 118px;
+    left: 200px;
+    top: -0.5px;
+
+    /* Portfolio - WHT */
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 200px;
+    }
+      /* Style the links inside the navigation bar */
 
  div {
   align-content: flex-start;
@@ -65,9 +141,75 @@
     display: none;
   }
 
-  .h1 {    
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 133px;
-    color: #2E2F40;
-  }
+.Intro {
+  margin: auto;
+}
+
+.Firstline {
+  position: absolute;
+  width: 483px;
+  height: 0px;
+  left: 46px;
+  top: 80px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 157px;
+
+  /* Portfolio - PUR3 */
+  color: #ADAEF2;
+}
+
+.Secondline {
+position: static;
+width: 587.19px;
+height: 300px;
+left: 20px;
+top: 0px;
+}
+
+/* Portfolio - H1 */
+
+.h1 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 88px;
+line-height: 103px;
+
+/* Portfolio - PUR2 */
+
+color: #6768A6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 17.18px 0px;
+}
+
+.bodytext {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+
+.body {
+  background-position-x: center;
+  background color: #2E2F40;
+  position: absolute;
+  width: 1512px;
+  height: 1860px;
+  left: 0px;
+  top: 676px;
+}
+
+
+
+}
